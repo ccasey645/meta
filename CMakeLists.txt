@@ -63,7 +63,7 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/deps/meta-cmake/)
 
 FindOrBuildICU(
   VERSION 61.1
-  URL http://download.icu-project.org/files/icu4c/61.1/icu4c-61_1-src.tgz
+  URL  https://github.com/unicode-org/icu/releases/download/release-61-1/icu4c-61_1-src.tgz
   URL_HASH MD5=68fe38999fef94d622bd6843d43c0615
 )
 
